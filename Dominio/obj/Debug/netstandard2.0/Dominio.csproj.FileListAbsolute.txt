@@ -1,0 +1,9 @@
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\bin\Debug\netstandard2.0\Dominio.deps.json
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\bin\Debug\netstandard2.0\Dominio.dll
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\bin\Debug\netstandard2.0\Dominio.pdb
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\obj\Debug\netstandard2.0\Dominio.csprojAssemblyReference.cache
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\obj\Debug\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfoInputs.cache
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfo.cs
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\obj\Debug\netstandard2.0\Dominio.dll
+D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Dominio\obj\Debug\netstandard2.0\Dominio.pdb
