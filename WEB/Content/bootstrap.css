@@ -113,8 +113,7 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0;
-  font: inherit;
+  margin: 25 0 0 0;
   color: inherit;
 }
 button {
@@ -4252,8 +4251,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
-  right: 0;
-  left: 0;
+  right: 609;
+  left: -1;
   z-index: 1030;
 }
 @media (min-width: 768px) {
@@ -4263,7 +4262,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-fixed-top {
-  top: 0;
+  top: -2;
   border-width: 0 0 1px;
 }
 .navbar-fixed-bottom {
@@ -4591,6 +4590,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
+    height: 50px;
+    width: 128px;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;

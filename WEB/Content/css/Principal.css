@@ -1,0 +1,84 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: x-large 35px;
+    color:azure
+}
+
+.Fondo {
+    background: url('../../Images/fondo.jpg') no-repeat 0 10%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Encabezado {
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: 35px;
+    color: azure;
+    font-weight: bold;
+}
+
+.textoGrande {
+    font-size: large;
+    font-family: 'Trebuchet MS',sans-serif;
+}
+
+.textoNegrita{
+    font-weight: bold!important;
+}
+
+.celdaPropiedad{
+    width: 120px;
+    text-align: right;
+    padding-top: 8px;
+    font-size: larger !important
+}
+
+.celdaValor{
+    text-align: left;
+    padding-left: 5px;
+    width: 150px;
+    padding-top: 8px;
+}
+
+.td{
+    padding: 0 0 0 0;
+}
+
+.table{
+    border: none;
+    border-style:none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-collapse: collapse;
+}
+
+.img{
+    border-style: none;
+}
+
+.tablaPrincipal{
+    width:100%;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.capaPrincipal{
+    width: 1010px;
+    position: absolute;
+    left: 50%;
+    margin-left: -505px;
+    top: 20px;
+}
+
+.linkPeque{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-decoration:underline;
+}

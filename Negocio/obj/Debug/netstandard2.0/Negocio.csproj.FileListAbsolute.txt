@@ -1,8 +1,0 @@
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\bin\Debug\netstandard2.0\Negocio.deps.json
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\bin\Debug\netstandard2.0\Negocio.dll
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\bin\Debug\netstandard2.0\Negocio.pdb
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CoreCompileInputs.cache
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfoInputs.cache
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfo.cs
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\netstandard2.0\Negocio.dll
-D:\Abel\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\netstandard2.0\Negocio.pdb
