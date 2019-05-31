@@ -1,7 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="PasoTres.aspx.cs" Inherits="WEB.PasoTres" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div>
+            <h1 class="body" >Carga tus Datos</h1>
+    </div>
     <table>
         <tr>
             <td class ="celdaPropiedad">

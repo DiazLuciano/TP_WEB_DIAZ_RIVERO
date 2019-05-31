@@ -252,3 +252,7 @@ C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVER
 C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\obj\Debug\WEB.csproj.CopyComplete
 C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\obj\Debug\WEB.dll
 C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\obj\Debug\WEB.pdb
+C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\bin\Dominio.dll
+C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\bin\NEGOCIO.dll
+C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\bin\Dominio.pdb
+C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\WEB\bin\NEGOCIO.pdb

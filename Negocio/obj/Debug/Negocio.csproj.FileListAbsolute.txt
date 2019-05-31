@@ -1,6 +1,0 @@
-C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
-C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\bin\Debug\Negocio.dll
-C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\bin\Debug\Negocio.pdb
-C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\Negocio.dll
-C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\Negocio\obj\Debug\Negocio.pdb
