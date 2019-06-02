@@ -10,5 +10,5 @@
     <p>
     <asp:Button ID="btnSiguiente" runat="server" Text="Siguiente" BackColor="#CCCCCC" Font-Bold="True" Font-Italic="False" ForeColor="Black" OnClick="btnSiguiente_Click" />
     </p>
-    <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+    <asp:Label ID="lblMensaje" runat="server" ></asp:Label>
 </asp:Content>

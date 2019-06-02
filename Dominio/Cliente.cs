@@ -8,7 +8,7 @@ namespace Dominio
 {
     public class Cliente
     {
-        public int ID { set; get; }
+        public long ID { set; get; }
         public string DNI { set; get; }
         public string Nombre { set; get; }
         public string Apellido { set; get; }

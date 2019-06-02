@@ -38,7 +38,7 @@ namespace NEGOCIO
         //}
         
 
-            public static string cadenaConexion = "Data Source =.\\SQLEXPRESS;Initial Catalog = DIAZ_DB; Integrated Security = True";
+            public static string cadenaConexion = "Data Source =.\\SQLEXPRESS;Initial Catalog = TP_WEB; Integrated Security = sspi";
             private SqlCommand comando;
             private SqlConnection conexion;
             private SqlDataReader lector;

@@ -22,7 +22,7 @@ namespace NEGOCIO
             try
             {
                 conexion = new AccesoDatos();
-                conexion.setearConsulta("select Id, CodigoVoucher,Estado from USUARIOS Where Codigo=@codigo");
+                conexion.setearConsulta("select CodigoVoucher from Vouchers Where CodigoVoucher=@codigo");
                 conexion.Comando.Parameters.Clear();
                 conexion.Comando.Parameters.AddWithValue("@codigo", voucher.Codigo);
                 
@@ -30,8 +30,8 @@ namespace NEGOCIO
                 conexion.ejecutarConsulta();
                 if (conexion.Lector.Read())
                 {
-                    voucher.ID = (int)conexion.Lector["Id"];
-                    voucher.Codigo = (string)conexion.Lector["Codigo"];
+                    
+                    voucher.Codigo = (string)conexion.Lector["CodigoVoucher"];
                     
                     return true;
                 }

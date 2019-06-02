@@ -24,6 +24,7 @@ namespace WEB
             try
             {
                 //Cliente cli = new Cliente();
+               
 
                 //cli.DNI = DNI;
                 //cli.Nombre = Nombre;
@@ -38,6 +39,12 @@ namespace WEB
                 resultado = "Error, " + ex.Message;
             }
             return resultado;
+        }
+
+        protected void btnGuardar_Click(object sender, EventArgs e)
+        {
+            //txtDNI.Text
+
         }
     }
 }
