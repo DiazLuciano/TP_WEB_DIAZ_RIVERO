@@ -107,18 +107,10 @@ namespace WEB
             ClienteNegocio CN = new ClienteNegocio();
             VoucherNegocio VN = new VoucherNegocio();
             Cliente cli = new Cliente();
+            DateTime fecha = DateTime.Today;
 
             try
             {
-                
-                //cli.DNI = int.Parse(txtDNI.Text);
-                //cli.Nombre = txtNombre.Text;
-                //cli.Apellido = txtApellido.Text;
-                //cli.Direccion = txtDireccion.Text;
-                //cli.Ciudad = txtCiudad.Text;
-                //cli.Email = txtEmail.Text;
-                //cli.CP = txtCP.Text;
-  
                 if (ValidarVacio())
                 {
                     
@@ -130,12 +122,21 @@ namespace WEB
                     }
                     else
                     {
-                        cli = CN.leerCliente(int.Parse(txtDNI.Text));
+                        cli.DNI = int.Parse(txtDNI.Text);
+                        cli.Nombre = txtNombre.Text;
+                        cli.Apellido = txtApellido.Text;
+                        cli.Direccion = txtDireccion.Text;
+                        cli.Ciudad = txtCiudad.Text;
+                        cli.Email = txtEmail.Text;
+                        cli.CP = txtCP.Text;
+                        cli.FechaRegistro = fecha;
                         CN.GuardarCliente(cli);
                         VN.GuardarVoucher(cli);
                     }
-                   
+                    EnviarEmail EM = new EnviarEmail();
+                    EM.EnviarCorreo(cli.Email);
                     lblMensaje.Text = "GUARDADO";
+                   
 
                     
                 }
