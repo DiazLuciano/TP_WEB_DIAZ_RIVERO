@@ -58,7 +58,7 @@ namespace NEGOCIO
             try
             {
                 DateTime fecha = DateTime.Today;
-                AD.setearConsulta("update Vouchers Set  IdCliente=@IdCliente, IdProducto=@IdProducto, Estado=@Estado, FechaRegistro=@FechaRegistro where Id=" + Voucher.voucherelegido.ID);
+                AD.setearConsulta("insert into Vouchers  IdCliente=@IdCliente, IdProducto=@IdProducto, Estado=@Estado, FechaRegistro=@FechaRegistro where Id=" + Voucher.voucherelegido.ID);
                 AD.Comando.Parameters.Clear();
                 AD.Comando.Parameters.AddWithValue("@IdCliente", cli.ID);
                 AD.Comando.Parameters.AddWithValue("@IdProducto", Producto.productoelegido.ID);

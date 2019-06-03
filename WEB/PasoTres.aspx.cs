@@ -133,8 +133,7 @@ namespace WEB
                         CN.GuardarCliente(cli);
                         VN.GuardarVoucher(cli);
                     }
-                    EnviarEmail EM = new EnviarEmail();
-                    EM.EnviarCorreo(cli.Email);
+                    
                     lblMensaje.Text = "GUARDADO";
                     
                 }
@@ -148,6 +147,19 @@ namespace WEB
             {
 
                 throw;
+            }
+        }
+
+        protected void btnEnviarEmail_Click(object sender, EventArgs e)
+        {
+            EnviarEmail EM = new EnviarEmail();
+            if(EM.EnviarCorreo(txtEmail.Text))
+            {
+                lblMensaje.Text = "ENVIADO";
+            }
+            else
+            {
+                lblMensaje.Text = "NO ENVIADO ERROR";
             }
         }
     }

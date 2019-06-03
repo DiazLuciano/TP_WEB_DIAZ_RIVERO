@@ -29,6 +29,7 @@ CREATE TABLE Clientes(
     Direccion VARCHAR(50) NOT NULL CHECK (LEN(Direccion) > 0),
     Ciudad VARCHAR(50) NOT NULL CHECK (LEN(Ciudad) > 0),
     CodigoPostal VARCHAR(8) NOT NULL CHECK (LEN(CodigoPostal) > 0),
+	FechaRegistro DATETIME NOT NULL DEFAULT GETDATE()
 );
 
 CREATE TABLE Vouchers(
@@ -37,6 +38,7 @@ CREATE TABLE Vouchers(
     Estado BIT NOT NULL DEFAULT 0 CHECK (Estado IN (1, 0)),
     IdCliente BIGINT DEFAULT NULL FOREIGN KEY REFERENCES Clientes(Id),
     IdProducto BIGINT DEFAULT NULL FOREIGN KEY REFERENCES Productos(Id),
+	FechaRegistro DATETIME NULL DEFAULT NULL
 
 );
 -- esto agrega mil vouchers automaticamente. Que crack soy... de nada.
@@ -48,5 +50,15 @@ BEGIN
    WAITFOR DELAY '00:00:00.002'
 END;
 
-select *from Vouchers
-AC680921DD3D28EB4AA18B522FE580D5
+GO
+
+insert into Productos values ('Mochila','portanotebook','~/Images/mochila.jpg')
+insert into Productos values ('Celular','smartphone','~/Images/celular.jpg')
+insert into Productos values ('Notebook','15 pulgadas','~/Images/notebook.jpg')
+
+GO
+
+insert into Clientes values ('39105320','Eduardo','Lite','juanpablo.diaz@outlook.com.ar','Rosalez 340','Tigre',1829,GETDATE())
+insert into Clientes values ('39105321','Ricardo','Emush','RicardoE@gmail.com','Hernandez 450','Benavidez',1318,'2018-09-16 20:00:30')
+
+

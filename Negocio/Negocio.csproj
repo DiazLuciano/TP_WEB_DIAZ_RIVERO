@@ -54,6 +54,7 @@
       <Name>Dominio</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Script DB\TP_WEB.sql" />
   </ItemGroup>

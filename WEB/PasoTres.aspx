@@ -77,7 +77,10 @@
         <tr>
             <td colspan="4" style="text-align:center;padding-top:45px;">
                 <%--<button id="botonGuardar" type="button" class="btn btn-sm btn-primary" title="Pulsar Para Guardar">Guardar</button>--%>
-                <asp:Button Text="GUARDAR" title="Pulsar Para Guardar" runat="server" CssClass="btn btn-sm btn-primary" OnClick="btnGuardar_Click" />
+                <asp:Button ID="btnGuardar" Text="GUARDAR" title="Pulsar Para Guardar" runat="server" CssClass="btn btn-sm btn-primary" OnClick="btnGuardar_Click" />
+            </td>
+            <td>
+                 <asp:Button ID="btnEnviarEmail" Text="Enviar Email" title="Pulsar Para Enviar" runat="server" CssClass="btn btn-sm btn-primary" OnClick="btnEnviarEmail_Click" />
             </td>
         </tr>
     </table>
