@@ -13,6 +13,8 @@ namespace WEB
     public partial class PasoDos : System.Web.UI.Page
     {
         private List<Producto> ListaProductos = new List<Producto>();
+        ProductoNegocio PN = new ProductoNegocio();
+        long id;
         protected void Page_Load(object sender, EventArgs e)
         {
             ListaProductos= (new ProductoNegocio().ListarProductos());
@@ -50,16 +52,25 @@ namespace WEB
 
         protected void ImagenBotonMochila_Click(object sender, ImageClickEventArgs e)
         {
+           
+             id = 1;
+            PN.CargarPro(id);
             Response.Redirect("~/PasoTres.aspx");
         }
 
         protected void ImagenBotonNotebook_Click(object sender, ImageClickEventArgs e)
         {
+            
+            id = 3;
+            PN.CargarPro(id);
             Response.Redirect("~/PasoTres.aspx");
         }
 
         protected void ImagenBotonCelular_Click(object sender, ImageClickEventArgs e)
         {
+            
+            id = 2;
+            PN.CargarPro(id);
             Response.Redirect("~/PasoTres.aspx");
         }
     }

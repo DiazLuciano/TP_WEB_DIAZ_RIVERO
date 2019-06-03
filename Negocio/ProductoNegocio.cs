@@ -27,14 +27,12 @@ namespace NEGOCIO
                 while (AD.Lector.Read())
                 {
                     Producto pro = new Producto();
-
                     pro.ID = (long)AD.Lector["Id"];
                     pro.Titulo = (string)AD.Lector["Titulo"];
                     pro.Descripcion = (string)AD.Lector["Descripcion"];
                     pro.URLImagen = (string)AD.Lector["URLImagen"];
-                    //pro.Titulo = AD.Lector.GetString(1);
-                    //pro.Descripcion = AD.Lector.GetString(2);
-                    //pro.URLImagen = AD.Lector.GetString(3);
+                    
+
                     listado.Add(pro);
                 }
                 return listado;
@@ -47,6 +45,36 @@ namespace NEGOCIO
             finally
             {
                 AD.cerrarConexion();
+            }
+        }
+
+        public void CargarPro(long n)
+        {
+            AccesoDatos AD = new AccesoDatos();
+            Producto pro = new Producto();
+            try
+            {
+                AD.setearConsulta("Select * From Productos where Id= " + n);
+                AD.Comando.Parameters.Clear();
+                AD.Comando.Parameters.AddWithValue("@id", n);
+                AD.abrirConexion();
+                AD.ejecutarConsulta();
+               
+                
+                while (AD.Lector.Read())
+                {
+                    pro.ID = (long)AD.Lector["Id"];
+                    pro.Titulo = (string)AD.Lector["Titulo"];
+                    pro.Descripcion = (string)AD.Lector["Descripcion"];
+                    pro.URLImagen = (string)AD.Lector["URLImagen"];
+                    Producto.productoelegido = pro;
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
     }

@@ -38,7 +38,7 @@ namespace NEGOCIO
         //}
         
 
-            public static string cadenaConexion = "Data Source =.\\SQLEXPRESS;Initial Catalog = TP_WEB; Integrated Security = sspi";
+            public static string cadenaConexion = "Data Source =.\\SQLEXPRESS;Initial Catalog = TP_WEB; Integrated Security = true";
             private SqlCommand comando;
             private SqlConnection conexion;
             private SqlDataReader lector;

@@ -26,9 +26,10 @@ namespace WEB
         {
             Voucher voucherI = new Voucher();
             VoucherNegocio VoucherN = new VoucherNegocio();
+
             try
             {
-                voucherI.Codigo = txtVoucher.Text.Trim();
+                voucherI.Codigo = txtVoucher.Text;
 
                 if (VoucherN.ValidarVoucher(voucherI)==true)
                 {
@@ -44,7 +45,7 @@ namespace WEB
             }
             catch (Exception)
             {
-                lblMensaje.Text = "No existe voucher ERROR";
+                lblMensaje.Text = "NO CARGO NINGUN VOUCHER";
             }
 
         }

@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaPrincipal.Master" AutoEventWireup="true" CodeBehind="PasoDos.aspx.cs" Inherits="WEB.PasoDos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -12,7 +13,7 @@
             <td style="height: 138px; width: 85px;">
                 <div>
                     <asp:ImageButton ID="ImagenBotonMochila" runat="server" ImageUrl="" OnClick="ImagenBotonMochila_Click" Width="100" />
-
+                    <asp:Label ID="LABEL" Text="hola" runat="server"/>
                 </div>
                 <div>
                     <asp:Label ID="lblNombreMochila" Text="text" runat="server" />
@@ -20,6 +21,7 @@
                 </div>
                 <div>
                     <asp:Label ID="lblDescripcionMochila" Text="text" runat="server" />
+                    
 
                 </div>
 

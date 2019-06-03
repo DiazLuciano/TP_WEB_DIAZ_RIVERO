@@ -16,7 +16,15 @@
             </td>
             <td class="celdaValor">
                 <asp:TextBox runat="server" ID="txtDNI" type="text" class="form-control" style="width:200px;" maxlength="8" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
-            <%--<input id="textoDNI" type="text" class="form-control" style="width:200px;" maxlength="8" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/></td>--%>
+                    <%--<input id="textoDNI" type="text" class="form-control" style="width:200px;" maxlength="8" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>--%>
+             </td>
+            <td>
+                <asp:Button Text="CONSULTAR" title="Pulsar Para Consultar" runat="server" CssClass="btn btn-sm btn-primary" OnClick="btnConsultar_Click" />
+                
+             </td>
+             <td>
+                <asp:Label ID="lblMensaje" runat="server" ></asp:Label>
+             </td>
         </tr>
         <tr>
             <td class ="celdaPropiedad">

@@ -22,6 +22,15 @@ namespace WEB {
         protected global::System.Web.UI.WebControls.ImageButton ImagenBotonMochila;
         
         /// <summary>
+        /// Control LABEL.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LABEL;
+        
+        /// <summary>
         /// Control lblNombreMochila.
         /// </summary>
         /// <remarks>

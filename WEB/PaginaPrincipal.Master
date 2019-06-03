@@ -11,7 +11,6 @@
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jquery-3.3.1.min.js"></script>
     <script src="Bootstrap/js/Principal.js?ver=1.1"></script>
-    <a href="App_Code/">App_Code/</a><a href="App_Code/GestionDatos.cs">App_Code/GestionDatos.cs</a>
     <link href="Content/css/Principal.css?ver=1.21" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
