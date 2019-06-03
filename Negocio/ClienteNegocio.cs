@@ -123,7 +123,7 @@ namespace NEGOCIO
 
             try
             {
-                AD.setearConsulta("update Clientes Values ('" + cli.DNI + "','" + cli.Nombre + "','" + cli.Apellido + "','" + cli.Email + "','" + cli.Direccion + "','" + cli.Ciudad + "','" + cli.CP + "','" + fecha + "')");
+                AD.setearConsulta("insert into Clientes Values ('" + cli.DNI + "','" + cli.Nombre + "','" + cli.Apellido + "','" + cli.Email + "','" + cli.Direccion + "','" + cli.Ciudad + "','" + cli.CP + "','" + fecha + "')");
                 AD.abrirConexion();
                 AD.ejecutarAccion();
             }
