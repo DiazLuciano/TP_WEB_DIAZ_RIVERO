@@ -136,8 +136,6 @@ namespace WEB
                     EnviarEmail EM = new EnviarEmail();
                     EM.EnviarCorreo(cli.Email);
                     lblMensaje.Text = "GUARDADO";
-                   
-
                     
                 }
                 else
