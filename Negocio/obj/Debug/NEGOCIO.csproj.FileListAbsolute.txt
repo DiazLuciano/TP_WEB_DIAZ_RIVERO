@@ -7,3 +7,12 @@ C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVER
 C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
 C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\HP\Desktop\3 Cuatri\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\bin\Debug\Dominio.dll
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\bin\Debug\Dominio.pdb
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\HP\Desktop\3 Cuatri\Prog III\TP_WEB_COMERCIO\TP_WEB_DIAZ_RIVERO\NEGOCIO\obj\Debug\NEGOCIO.pdb

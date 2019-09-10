@@ -34,21 +34,7 @@ namespace WEB
 
         }
 
-        //private void CargarProductos()
-        //{
 
-        //    ProductoNegocio proN = new ProductoNegocio();
-        //    try
-        //    {
-        //        ListaProductos = proN.ListarProductos();
-        //        //dgvArticulos.DataSource = ListarProductos;
-        //    }
-        //    catch (Exception )
-        //    {
-        //        //MessageBox.Show(ex.ToString());
-        //        throw;
-        //    }
-        //}
 
         protected void ImagenBotonMochila_Click(object sender, ImageClickEventArgs e)
         {
